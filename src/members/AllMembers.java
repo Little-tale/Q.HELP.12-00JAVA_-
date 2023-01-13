@@ -13,7 +13,8 @@ public class AllMembers extends AllMemberAdapter
 		englishMembers();
 		// 이부분에서 문제가 발생됨 . 
 			//예상되는 문제점은 주소값을 통해 길이를 못받느냐 라고 볼수있다.
-		int length = (mathMembers().length) + (englishMembers().length);
+		// int length = (mathMembers().length) + (englishMembers().length);
+		int length = 20;
 		String allMemberList[] = new String [length]; 
 		System.arraycopy(mathMembers(),0,allMemberList,0,allMemberList.length);
 		System.arraycopy(englishMembers(), 0, allMemberList, 0, allMemberList.length);

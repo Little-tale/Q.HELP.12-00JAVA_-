@@ -13,6 +13,7 @@ public class EnglishMembers implements EnglishMemberList
 		//Random rd = new Random();
 		//int index = rd.nextInt();
 		System.out.println(Name + "님 ---영어반--- 입장");
+		englishMembers[count] = Name;
 		for(int i =0; i<List.length; ++i)
 		{
 			System.out.println(List[i]);
@@ -28,7 +29,7 @@ public class EnglishMembers implements EnglishMemberList
 	            }
 			
 		}
-		englishMembers[count] = Name;
+		
 		++count;
 		System.out.println();
 	}

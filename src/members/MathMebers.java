@@ -34,6 +34,7 @@ public class MathMebers implements MethMermberList
 		//Random rd = new Random();
 		//int index = rd.nextInt();
 		System.out.println(Name + "\n님 ---수학반--- 입장");
+		methMemberList[count] = Name;
 		for(int i =0; i<(List.length); ++i)
 		{
 			
@@ -49,7 +50,7 @@ public class MathMebers implements MethMermberList
 	                e.printStackTrace();
 	            }
 		}
-		methMemberList[count] = Name;
+		
 		++count;
 		System.out.println();
 	}
