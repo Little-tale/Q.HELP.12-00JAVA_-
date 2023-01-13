@@ -7,9 +7,13 @@ public class Mycompany {
 
 	public static void main(String[] args)
 	{
-		String[] List = new String[10]; 
+		//리스트 스트링 배열을 만들어 다시 모아두기 위한 거시기
+		String[] List = new String[20];
+		// 모든멤버 객체화
 		AllMembers AM = new AllMembers();
+		//수학멤버 객체
 		MathMebers MM = new MathMebers();
+//		영어멤버 객체화
 		EnglishMembers EM = new EnglishMembers();
 		boolean next = true;
 		

@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class MathMebers implements MethMermberList
 {
-	//필
+	//필드
 	int count = 2; // 기본 필드 + 2명 기본깔고 +1한 인덱스값.
 	public String[] methMemberList = new String[]
 			{"김재형","김예찬","XXX","XXX","XXX","XXX"};
@@ -17,6 +17,7 @@ public class MathMebers implements MethMermberList
 	// 문자열 주소값을 돌려받는 메소드 재정
 	public String[] mathMembers()
 	{
+		//반복문을 통해 수학반 학생들 리스트 출력
 		System.out.println("수학반 학생들 리스트");
 		for(int i = 0;i<methMemberList.length; ++i)
 		{
@@ -38,7 +39,7 @@ public class MathMebers implements MethMermberList
 			
 			System.out.println(List[i]);
 			//System.out.println(List[i]);
-			
+			// 추가됨. 천천히 출력해 박진감을 위한 메크로
 			 try
 	            {
 	                Thread.sleep(500);

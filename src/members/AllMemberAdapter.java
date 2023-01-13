@@ -2,6 +2,7 @@ package members;
 
 public abstract class AllMemberAdapter implements EnglishMemberList,MethMermberList
 {
+	//모든 멤버를불러들이기 위한 인터페이스
 	
 	@Override
 	public String[] mathMembers() {
